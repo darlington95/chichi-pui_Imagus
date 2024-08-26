@@ -22,4 +22,13 @@ for(var i=0,l=x.length;i<l;i+=1)
 return ret
 ```
 
+* img
+```
+^(chichi-pui\.imgix\.net/uploads/post_images/.+)\?.+
+```
+
+* to
+```
+$1
+```
 In the future, if the site's coding changes, we may need to modify the 'a.js-main-image-link' part.
