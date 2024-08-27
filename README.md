@@ -4,12 +4,13 @@ Imagus Sieve for chichi-pui.com
 This is a sieve definition to enable Imagus on chichi-pui, a post and generation site dedicated to AI images.  
 [Imagus](https://www.reddit.com/r/Imagus) is a browser extension that enlarge thumbnails, and show images/videos from links with a mouse hover.  
 
-![ss_2024-08-25](https://github.com/user-attachments/assets/772aeb5d-ad8b-4fb0-a25a-f3d084507df8)
+![ss_2024-08-27](https://github.com/user-attachments/assets/7d268f09-1393-44ea-a9ba-d7348792e9b2)
+
 Show in text below.
 
 * link
 ```
-(/posts/.+/)
+^(chichi-pui\.com/posts/.+/)
 ```
 
 * res
